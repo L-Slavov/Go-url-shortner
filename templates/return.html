@@ -1,0 +1,13 @@
+{{define "title"}}A templated page{{end}}
+
+{{define "body"}}
+<div class="container">
+<div class="row">
+    <div class="four columns"></div>
+    <div class="eight columns" style="text-align:center">
+      <label>Your shortened link:<label>
+        <p>{{.link}}</p>
+    </div>
+  </div>
+</div>
+{{end}}
